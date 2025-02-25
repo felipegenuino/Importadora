@@ -9,9 +9,14 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
-    <title>EMPRESA XYZ | Importadora e Exportadora</title>
+    <title>EMPRESA ABC | Importação e Exportação</title>
+    <link rel="stylesheet" href="bower_components/animate/animate.css" />
+    <link rel="stylesheet" href="bower_components/owl.carousel/assets/owl.carousel.css" />
     <link rel="stylesheet" href="stylesheets/app.css" />
-    <script src="js/modernizr.js"></script>
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script>
+      console.log("Página carregada: EMPRESA ABC | Importação e Exportação");
+    </script>
   </head>
   <body>
 
@@ -22,19 +27,8 @@
       <div class="row">
         <div class="medium-2 small-6 columns">
           <div class="logotipo-component">
-            <a href="#" class="logotipo-main right-off-canvas-toggle"> EMPRESA XYZ </a>
+            <a href="#" class="logotipo-main right-off-canvas-toggle" onclick="console.log('Logo clicado')"> EMPRESA ABC </a>
           </div>
-        </div>
-        <div class="medium-8 columns hide-for-medium-down">
-          <nav class="main-menu-component">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Sobre</a></li>
-              <li><a href="#">Serviços</a></li>
-              <li><a href="#">Produtos</a></li>
-              <li><a href="#">Contato</a></li>
-            </ul>
-          </nav>
         </div>
       </div>
     </header>
@@ -43,44 +37,19 @@
       <div class="slide-carosel banner-1">
         <div class="row">
           <div class="impact-mensagem small-12 columns">
-            <h2 class="title-impact-mensagem">Importação e Exportação com Qualidade</h2>
-            <p class="sub-impact-mensagem">Conectamos você ao mercado global.</p>
-            <a href="#" class="button small">Saiba mais</a>
+            <h2 class="title-impact-mensagem">Facilitamos a sua importação</h2>
+            <p class="sub-impact-mensagem">Assessoria especializada para o seu negócio.</p>
+            <a href="#" class="button small" onclick="console.log('Botão Saiba mais clicado')">Saiba mais</a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="block-headline-component">
-      <div class="row">
-        <div class="large-9 medium-12 columns">
-          <h2>Soluções personalizadas para importação e exportação.</h2>
-          <p>Fornecemos assessoria e logística para sua empresa crescer internacionalmente.</p>
-        </div>
-        <div class="large-3 medium-12 columns">
-          <a href="#" class="button modern">Saiba como</a>
-        </div>
-      </div>
-    </div>
-
-    <footer class="footer-top-component">
-      <div class="row"> 
-        <div class="medium-3 columns">
-          <h4>Sobre a EMPRESA XYZ</h4>
-          <p>Oferecemos soluções em comércio exterior para empresas de diversos segmentos.</p>
-        </div>
-        <div class="medium-3 columns">
-          <h4>Contato</h4>
-          <p>Email: <a href="mailto:contato@empresaexemplo.com">contato@empresaexemplo.com</a></p>
-        </div>
-      </div>
-    </footer>
-
     <footer class="footer-bottom-component">
       <div class="row">
         <div class="medium-8 columns copyright">
-          <p><strong>EMPRESA XYZ</strong> - Rua Exemplo 123, Cidade, Estado, PAÍS</p>
-          <p>T: +55 00 0000 0000 | E: <a href="mailto:info@empresaexemplo.com">info@empresaexemplo.com</a></p>
+          <p><strong>EMPRESA ABC</strong> - Avenida Principal 456, Sala 789, Cidade, Estado, PAÍS</p>
+          <p>T: +55 00 0000 0000 | E: <a href="mailto:contato@empresaabc.com" onclick="console.log('Email clicado: contato@empresaabc.com')">contato@empresaabc.com</a></p>
         </div>
       </div>
     </footer>
@@ -88,8 +57,13 @@
   </div>
 </div>
 
-<script src="js/jquery.min.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/owl.carousel/owl.carousel.min.js"></script>
+<script src="bower_components/foundation/js/foundation.min.js"></script>
 <script src="js/app.js"></script>
+<script>
+  console.log("Scripts carregados com sucesso");
+</script>
 
 </body>
 </html>
